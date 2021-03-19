@@ -1,2 +1,1 @@
-# mob-x-test
-testing mob x with a simple space x missions list api app
+testing mob-x with simple space x missions list app

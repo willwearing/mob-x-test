@@ -2,6 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
-// import "antd/dist/antd.css";
+import { Provider } from "mobx-react";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+import MissionsStore from "./stores/MissionsStore";
+const missionStore = new MissionsStore();
+
+ReactDOM.render(
+  <Provider missionStore={missionStore}>
+    <App />
+  </Provider>,
+  document.getElementById("root")
+);

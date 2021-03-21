@@ -2800,6 +2800,13 @@
   "resolved" "https://registry.npmjs.org/axe-core/-/axe-core-4.1.2.tgz"
   "version" "4.1.2"
 
+"axios@^0.21.1":
+  "integrity" "sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.21.1.tgz"
+  "version" "0.21.1"
+  dependencies:
+    "follow-redirects" "^1.10.0"
+
 "axobject-query@^2.2.0":
   "integrity" "sha512-Td525n+iPOOyUQIeBfcASuG6uJsDOITl7Mds5gFyerkWiX7qhUTdYUBlSgNMyVqtSJqwpt1kXGLdUt6SykLMRA=="
   "resolved" "https://registry.npmjs.org/axobject-query/-/axobject-query-2.2.0.tgz"
@@ -5535,7 +5542,7 @@
     "inherits" "^2.0.3"
     "readable-stream" "^2.3.6"
 
-"follow-redirects@^1.0.0":
+"follow-redirects@^1.0.0", "follow-redirects@^1.10.0":
   "integrity" "sha512-6mPTgLxYm3r6Bkkg0vNM0HTjfGrOEtsfbhagQvbxDEsEkpNhw582upBaoRZylzen6krEmxXJgt9Ju6HiI4O7BA=="
   "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.13.2.tgz"
   "version" "1.13.2"
@@ -6164,11 +6171,6 @@
   "version" "1.2.1"
   dependencies:
     "ms" "^2.0.0"
-
-"i@^0.3.6":
-  "integrity" "sha1-2WyScyB28HJxG2sQ/X1PZa2O4j0="
-  "resolved" "https://registry.npmjs.org/i/-/i-0.3.6.tgz"
-  "version" "0.3.6"
 
 "iconv-lite@^0.6.2":
   "version" "0.6.2"
@@ -8087,7 +8089,12 @@
   dependencies:
     "mobx-react-lite" "^3.2.0"
 
-"mobx@^6.1.0":
+"mobx-state-tree@^5.0.1":
+  "integrity" "sha512-XZafwF1sJe6sp8L1kgf9Tz0SLo/UPf2pxsonnHaBQNsqbebw+0GC+IT3WxPEIe0/aQ73q4nY4SRgW1uyfd1KRA=="
+  "resolved" "https://registry.npmjs.org/mobx-state-tree/-/mobx-state-tree-5.0.1.tgz"
+  "version" "5.0.1"
+
+"mobx@^6.1.0", "mobx@^6.1.8":
   "integrity" "sha512-U4yCvUeh6yKXRwFxm2lyJjXPVekOEar/R8ZKWAXem/3fthJqYflViawfjDAUh7lZEvbKqljC3NT/pSaUKpE+gg=="
   "resolved" "https://registry.npmjs.org/mobx/-/mobx-6.1.8.tgz"
   "version" "6.1.8"
